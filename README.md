@@ -41,6 +41,25 @@ A private, timestamped provenance snapshot was recorded on **12 September 2026**
 
 Selected evidence is summarized in [`PUBLIC_EVIDENCE.md`](PUBLIC_EVIDENCE.md).
 
+## Authentic artifacts
+
+The [`artifacts/`](artifacts/) directory contains exports derived directly from the preserved checkpoint rather than recreated promotional media.
+
+Current public evidence includes:
+
+- the earliest stored drawing in the checkpoint, created by **Sol** at tick 6, exported as SVG from the stored stroke coordinates;
+- the earliest stored music event, created by **Ori** at tick 4, published as its exact pitch/duration sequence;
+- **Iv's** first voluntary shared-library publication at tick 50;
+- an evidence manifest that ties each export back to its event ID and model tick.
+
+These files are evidence of what the software recorded. Interpretation is kept separate.
+
+## Observer
+
+The Observer is a read-only projection of the evolving world: map, resident histories, event traces, projects, artifacts and environmental consequences. Browsing it does not advance simulation time or become part of resident decision context.
+
+See [`DEMO.md`](DEMO.md) for the public-demo boundary. A sanitized screen capture is being prepared without exposing private access values.
+
 ## Design principle
 
 > We created the conditions. We did not decide who they should become.
@@ -68,6 +87,7 @@ The next major research directions are:
 - [`PUBLIC_EVIDENCE.md`](PUBLIC_EVIDENCE.md) — verified baseline events
 - [`PUBLIC_PROVENANCE.md`](PUBLIC_PROVENANCE.md) — dated cryptographic fingerprints
 - [`RIGHTS_NOTICE.md`](RIGHTS_NOTICE.md) — publication and rights notice
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to contribute research critique without requesting the private world database
 
 ## Naming note
 
