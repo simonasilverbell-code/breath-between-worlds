@@ -86,6 +86,8 @@ The next major research directions are:
 - [`PUBLIC_METHOD.md`](PUBLIC_METHOD.md) — architecture and experimental boundaries
 - [`PUBLIC_EVIDENCE.md`](PUBLIC_EVIDENCE.md) — verified baseline events
 - [`PUBLIC_PROVENANCE.md`](PUBLIC_PROVENANCE.md) — dated cryptographic fingerprints
+- [`RELATED_WORK.md`](RELATED_WORK.md) — prior art and current project positioning
+- [`EXPERIMENT_01_CAUSAL_MEMORY.md`](EXPERIMENT_01_CAUSAL_MEMORY.md) — first falsifiable post-baseline experiment
 - [`RIGHTS_NOTICE.md`](RIGHTS_NOTICE.md) — publication and rights notice
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to contribute research critique without requesting the private world database
 
