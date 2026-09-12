@@ -1,0 +1,57 @@
+{
+  "source_checkpoint_tick": 56,
+  "first_music": {
+    "event_seq": 54,
+    "event_id": "b922f3d672e4a9fcfdada4af",
+    "tick": 4,
+    "resident": "Ори",
+    "title": "Изменчивое место · почва",
+    "notes": [
+      {"duration": 0.3, "pitch": 45},
+      {"duration": 0.3, "pitch": 67},
+      {"duration": 0.3, "pitch": 50},
+      {"duration": 0.3, "pitch": 62},
+      {"duration": 0.3, "pitch": 57},
+      {"duration": 0.3, "pitch": 55},
+      {"duration": 0.6, "pitch": 48},
+      {"duration": 0.9, "pitch": 48}
+    ],
+    "rendering": "sine oscillator, MIDI-to-Hz mapping and envelope/gap rules reproduced from the LUMEN observer"
+  },
+  "first_drawing": {
+    "event_seq": 77,
+    "event_id": "533474f8fee1163d589f3832",
+    "tick": 6,
+    "resident": "Соль",
+    "title": "Промежуток · место",
+    "strokes": [
+      {
+        "color": "#333c43",
+        "points": [[0.571,0.705],[0.133,0.827],[0.756,0.79],[0.699,0.104],[0.533,0.697]]
+      },
+      {
+        "color": "#bc4e6e",
+        "points": [[0.646,0.698],[0.66,0.327],[0.932,0.116],[0.381,0.623],[0.024,0.311]]
+      },
+      {
+        "color": "#3dada9",
+        "points": [[0.38,0.027],[0.157,0.757],[0.079,0.826],[0.219,0.334],[0.611,0.531]]
+      }
+    ],
+    "rendering": "stored stroke coordinates rendered with observer viewBox 160x100 and stroke-width 1.5"
+  },
+  "first_library_publication": {
+    "event_seq": 627,
+    "event_id": "59f3100e76d70932655697a2",
+    "tick": 50,
+    "resident": "Ив",
+    "entry": {
+      "category": "observation",
+      "created_tick": 50,
+      "epistemic_status": "author_claim",
+      "id": "de1cd4c89c32d5839a082839",
+      "text": "Измеряет влажность почвы: 0.27",
+      "title": "Запись о местном опыте"
+    }
+  }
+}
