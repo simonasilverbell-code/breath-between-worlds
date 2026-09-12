@@ -1,0 +1,14 @@
+{
+  "event_seq": 627,
+  "event_id": "59f3100e76d70932655697a2",
+  "tick": 50,
+  "resident": "Ив",
+  "entry": {
+    "category": "observation",
+    "created_tick": 50,
+    "epistemic_status": "author_claim",
+    "id": "de1cd4c89c32d5839a082839",
+    "title": "Запись о местном опыте",
+    "text": "Измеряет влажность почвы: 0.27"
+  }
+}
