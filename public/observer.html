@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Read-only public observer snapshot for Breath Between Worlds, codename LUMEN." />
+  <title>Observer Snapshot · Breath Between Worlds</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <section class="hero compact-hero">
+      <p class="eyebrow">PUBLIC OBSERVER · PRESERVED BASELINE</p>
+      <h1>Look inside the record.</h1>
+      <p class="lede">A read-only window into the preserved pre-LLM checkpoint. This is not the private live Observer and it exposes no resident-private memory, credentials, or control surface.</p>
+      <div class="actions">
+        <a class="button" href="#timeline">Browse verified events</a>
+        <a class="button ghost" href="index.html">Back to overview</a>
+      </div>
+    </section>
+
+    <section class="panel stats">
+      <div><strong>6</strong><span>persistent residents</span></div>
+      <div><strong>56</strong><span>model-hours preserved</span></div>
+      <div><strong>701</strong><span>journaled events</span></div>
+      <div><strong>336</strong><span>perception events</span></div>
+    </section>
+
+    <section>
+      <p class="eyebrow">THE SIX</p>
+      <div class="grid residents observer-residents" id="residentFilters">
+        <button class="resident-filter active" data-resident="all"><strong>All</strong><span>whole record</span></button>
+        <button class="resident-filter" data-resident="Эйра"><strong>Eira</strong><span>Эйра</span></button>
+        <button class="resident-filter" data-resident="Таль"><strong>Tal</strong><span>Таль</span></button>
+        <button class="resident-filter" data-resident="Нери"><strong>Neri</strong><span>Нери</span></button>
+        <button class="resident-filter" data-resident="Ори"><strong>Ori</strong><span>Ори</span></button>
+        <button class="resident-filter" data-resident="Соль"><strong>Sol</strong><span>Соль</span></button>
+        <button class="resident-filter" data-resident="Ив"><strong>Iv</strong><span>Ив</span></button>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">VERIFIED EVENT TRACE</p>
+          <h2>Events, not interpretation.</h2>
+        </div>
+        <p class="muted">Every item below comes from the preserved checkpoint or the public evidence manifest. The list is intentionally selective.</p>
+      </div>
+
+      <div class="timeline" id="eventTimeline">
+        <article class="event-card" data-resident="Ори" data-kind="artifact">
+          <div class="event-meta"><span>tick 4</span><span>music</span></div>
+          <h3>Ori stores a musical phrase</h3>
+          <p><strong>Изменчивое место · почва</strong></p>
+          <p>Eight stored pitch/duration notes. The browser can synthesize the phrase directly from the preserved sequence.</p>
+          <button class="button mini" id="playOri">Play preserved phrase</button>
+          <span class="play-status" id="playStatus" aria-live="polite"></span>
+        </article>
+
+        <article class="event-card" data-resident="Соль" data-kind="artifact">
+          <div class="event-meta"><span>tick 6</span><span>drawing</span></div>
+          <h3>Sol stores a drawing</h3>
+          <p><strong>Промежуток · место</strong></p>
+          <div class="inline-art"><img src="https://raw.githubusercontent.com/simonasilverbell-code/breath-between-worlds/main/artifacts/first_drawing_sol_tick_06.svg" alt="Preserved drawing by Sol at tick 6" /></div>
+          <p class="muted">Rendered from the exact stored stroke coordinates and colors.</p>
+        </article>
+
+        <article class="event-card" data-resident="Нери" data-kind="social">
+          <div class="event-meta"><span>tick 13</span><span>refusal</span></div>
+          <h3>Neri declines Tal</h3>
+          <p>“Сейчас хочется тишины.”</p>
+          <p class="muted">Stored as an explicit refusal rather than silently converting into cooperation.</p>
+        </article>
+
+        <article class="event-card" data-resident="Эйра" data-kind="social">
+          <div class="event-meta"><span>tick 17</span><span>refusal</span></div>
+          <h3>Eira declines Sol</h3>
+          <p>“Сейчас хочется тишины.”</p>
+        </article>
+
+        <article class="event-card" data-resident="Таль" data-kind="physical">
+          <div class="event-meta"><span>tick 23 → 26</span><span>construction</span></div>
+          <h3>Two construction outcomes differ</h3>
+          <p>At tick 23, Tal's reed construction with height 3 and span 7 collapsed. At tick 26, a smaller reed construction with height 1 and span 2 stood.</p>
+          <p class="muted">This is a verified physical outcome difference. The baseline does not claim that the second result proves acquired engineering skill.</p>
+        </article>
+
+        <article class="event-card" data-resident="Ив" data-kind="knowledge">
+          <div class="event-meta"><span>tick 48 → 50</span><span>shared library</span></div>
+          <h3>Iv moves an observation from personal experience into shared memory</h3>
+          <p>At tick 48, Iv measures soil moisture at <strong>0.27</strong>. At tick 50, Iv voluntarily publishes: <em>“Измеряет влажность почвы: 0.27”</em>.</p>
+          <p class="muted">Private memory is not automatically exposed. Publication is a separate action.</p>
+        </article>
+
+        <article class="event-card" data-resident="Ив" data-kind="social">
+          <div class="event-meta"><span>tick 49</span><span>refusal</span></div>
+          <h3>Iv declines Sol</h3>
+          <p>“Сейчас хочется тишины.”</p>
+        </article>
+
+        <article class="event-card" data-resident="Соль" data-kind="social">
+          <div class="event-meta"><span>tick 55</span><span>refusal</span></div>
+          <h3>Sol declines Iv</h3>
+          <p>“Сейчас хочется тишины.”</p>
+        </article>
+
+        <article class="event-card" data-resident="Соль" data-kind="knowledge">
+          <div class="event-meta"><span>tick 56</span><span>provenance</span></div>
+          <h3>Sol transfers measured information to Iv</h3>
+          <p>“Измеряет растение: размер 0.090”</p>
+          <p class="muted">The event retains that the information was measured and records the source relationship.</p>
+        </article>
+      </div>
+      <p id="emptyState" class="muted empty-state" hidden>No selected events for this resident in the public subset.</p>
+    </section>
+
+    <section class="panel principle">
+      <p class="eyebrow">PRIVACY BOUNDARY</p>
+      <blockquote>Observer, not director.</blockquote>
+      <p>This page contains only a curated public projection. It does not connect to the private world database, reveal full resident-private memory, or provide actions that can alter the world.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">WHY A SNAPSHOT?</p>
+      <h2>So later claims can be compared against something frozen.</h2>
+      <p>The documented checkpoint uses the deterministic control baseline. Future LLM-driven runs can be compared against the same preserved history instead of relying on retrospective storytelling.</p>
+      <div class="actions">
+        <a class="button ghost" href="https://github.com/simonasilverbell-code/breath-between-worlds/blob/main/PUBLIC_EVIDENCE.md">Open evidence notes</a>
+        <a class="button ghost" href="https://github.com/simonasilverbell-code/breath-between-worlds/blob/main/PUBLIC_PROVENANCE.md">Verify provenance</a>
+      </div>
+    </section>
+
+    <footer>
+      <span>Breath Between Worlds · codename LUMEN</span>
+      <span>Public Observer Snapshot · read only</span>
+      <span><a href="https://github.com/simonasilverbell-code/breath-between-worlds/issues/1">Challenge the experiment</a></span>
+    </footer>
+  </main>
+
+  <script>
+    const filters = [...document.querySelectorAll('.resident-filter')];
+    const cards = [...document.querySelectorAll('.event-card')];
+    const empty = document.getElementById('emptyState');
+
+    filters.forEach(button => {
+      button.addEventListener('click', () => {
+        filters.forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+        const resident = button.dataset.resident;
+        let visible = 0;
+        cards.forEach(card => {
+          const show = resident === 'all' || card.dataset.resident === resident;
+          card.hidden = !show;
+          if (show) visible += 1;
+        });
+        empty.hidden = visible !== 0;
+      });
+    });
+
+    const playButton = document.getElementById('playOri');
+    const playStatus = document.getElementById('playStatus');
+
+    playButton.addEventListener('click', async () => {
+      playButton.disabled = true;
+      playStatus.textContent = ' loading preserved sequence…';
+      try {
+        const response = await fetch('https://raw.githubusercontent.com/simonasilverbell-code/breath-between-worlds/main/artifacts/first_music_ori_tick_04.json');
+        const data = await response.json();
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        const ctx = new AudioCtx();
+        await ctx.resume();
+        let cursor = ctx.currentTime + 0.05;
+        data.notes.forEach(note => {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          const freq = 440 * Math.pow(2, (note.pitch - 69) / 12);
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(freq, cursor);
+          gain.gain.setValueAtTime(0.0001, cursor);
+          gain.gain.exponentialRampToValueAtTime(0.08, cursor + 0.02);
+          gain.gain.exponentialRampToValueAtTime(0.0001, cursor + note.duration);
+          osc.connect(gain).connect(ctx.destination);
+          osc.start(cursor);
+          osc.stop(cursor + note.duration + 0.04);
+          cursor += note.duration + 0.035;
+        });
+        playStatus.textContent = ' playing Ori · tick 4';
+        window.setTimeout(() => {
+          playButton.disabled = false;
+          playStatus.textContent = '';
+          ctx.close();
+        }, Math.max(500, (cursor - ctx.currentTime + 0.15) * 1000));
+      } catch (error) {
+        playButton.disabled = false;
+        playStatus.textContent = ' unable to play on this browser';
+      }
+    });
+  </script>
+</body>
+</html>
