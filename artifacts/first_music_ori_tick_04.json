@@ -1,0 +1,18 @@
+{
+  "event_seq": 54,
+  "event_id": "b922f3d672e4a9fcfdada4af",
+  "tick": 4,
+  "resident": "Ори",
+  "title": "Изменчивое место · почва",
+  "notes": [
+    {"duration": 0.3, "pitch": 45},
+    {"duration": 0.3, "pitch": 67},
+    {"duration": 0.3, "pitch": 50},
+    {"duration": 0.3, "pitch": 62},
+    {"duration": 0.3, "pitch": 57},
+    {"duration": 0.3, "pitch": 55},
+    {"duration": 0.6, "pitch": 48},
+    {"duration": 0.9, "pitch": 48}
+  ],
+  "rendering_note": "The observer renders stored MIDI-like pitches as sine oscillators using 440 * 2^((pitch-69)/12), with stored note durations and short inter-note gaps."
+}
