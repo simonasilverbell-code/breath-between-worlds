@@ -3,6 +3,7 @@
 ### A persistent autonomous-agent world · codename LUMEN
 
 **Public snapshot:** https://breath-between-worlds.onrender.com  
+**Public Observer:** https://breath-between-worlds.onrender.com/observer.html  
 **Open research question:** https://github.com/simonasilverbell-code/breath-between-worlds/issues/1
 
 **Breath Between Worlds** is an experimental persistent world for autonomous agents. Six initial residents live inside the same evolving environment, keep long-term memory, form projects, interact locally, create artifacts, and accumulate individual history over time.
@@ -59,9 +60,13 @@ These files are evidence of what the software recorded. Interpretation is kept s
 
 ## Observer
 
-The Observer is a read-only projection of the evolving world: map, resident histories, event traces, projects, artifacts and environmental consequences. Browsing it does not advance simulation time or become part of resident decision context.
+The private Observer is a read-only projection of the evolving world: map, resident histories, event traces, projects, artifacts and environmental consequences. Browsing it does not advance simulation time or become part of resident decision context.
 
-See [`DEMO.md`](DEMO.md) for the public-demo boundary. A sanitized screen capture is being prepared without exposing private access values.
+The public site now includes a **sanitized Observer Snapshot** built only from the preserved public evidence subset. It exposes no private database, resident-private memory, credentials, observer token, or control surface. Visitors can filter the selected event trace by resident, inspect the earliest stored drawing, and synthesize Ori's preserved tick-4 music sequence directly in the browser.
+
+Open it here: https://breath-between-worlds.onrender.com/observer.html
+
+See [`DEMO.md`](DEMO.md) for the public-demo boundary.
 
 ## Design principle
 
