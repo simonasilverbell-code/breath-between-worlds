@@ -2,6 +2,9 @@
 
 ### A persistent autonomous-agent world · codename LUMEN
 
+**Public snapshot:** https://breath-between-worlds.onrender.com  
+**Open research question:** https://github.com/simonasilverbell-code/breath-between-worlds/issues/1
+
 **Breath Between Worlds** is an experimental persistent world for autonomous agents. Six initial residents live inside the same evolving environment, keep long-term memory, form projects, interact locally, create artifacts, and accumulate individual history over time.
 
 The project is intentionally designed without money, rankings, assigned professions, mandatory productivity, or a single reward score that defines a “successful” resident.
